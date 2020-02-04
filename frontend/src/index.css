@@ -1,0 +1,64 @@
+.error{
+    color: red;
+}
+.logout{
+    border: none;
+    margin: 15px;
+    height: 25px;
+    outline: none;
+}
+.Username{
+    margin: 5px 10px;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between ;
+    height: 50px;
+    border-bottom: solid 1px #cccccc;
+    box-shadow: inset;
+    align-items: center;
+}
+.nav-item{
+    margin-left: 10px;
+}
+
+.submit-btn{
+    margin-top: 5px;
+}
+
+.ui.form.auth{
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.msg-form{
+    margin: 10px 0 ;
+    width: 70%;
+}
+
+.msg-line{
+    width: 50%;
+}
+.msg-btn{
+    border: none;
+    background: none;
+    margin-left: 5px;
+    outline: none;
+}
+.message-item{
+    border-bottom: inset;
+    border-color: #cccccc ;
+    font-size: 1.25rem ;
+}
+.close.link.icon{
+    display: none;
+}
+
+.message-item:hover .close.link.icon{
+    display: inline-block;
+    margin-right: 5px ;
+}
+.Recaptcha{
+    margin:15px 0 ;
+}
